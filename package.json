@@ -1,0 +1,24 @@
+{
+  "name": "sigtap",
+  "version": "1.0.0",
+  "description": "Sistema de Gerenciamento da Tabela de Procedimentos, Medicamentos e OPM do SUS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/iagofrota/sigtap.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iagofrota/sigtap/issues"
+  },
+  "homepage": "https://github.com/iagofrota/sigtap#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^3.0.1",
+    "nodemon": "^1.14.10"
+  }
+}
